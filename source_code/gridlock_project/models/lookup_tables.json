@@ -1,0 +1,1758 @@
+{
+  "cause_stats": {
+    "accident": {
+      "closure_rate": 0.030136986301369864,
+      "median_duration": 41.37271345,
+      "event_count": 365,
+      "severity_score": 0.03122589850187598
+    },
+    "congestion": {
+      "closure_rate": 0.04411764705882353,
+      "median_duration": 71.53531281666667,
+      "event_count": 136,
+      "severity_score": 0.029762708823188433
+    },
+    "construction": {
+      "closure_rate": 0.26458333333333334,
+      "median_duration": 2945.2270970500003,
+      "event_count": 480,
+      "severity_score": 0.24026433572855493
+    },
+    "debris": {
+      "closure_rate": 0.15384615384615385,
+      "median_duration": 86853.31900187499,
+      "event_count": 13,
+      "severity_score": 0.3774543396938166
+    },
+    "fog / low visibility": {
+      "closure_rate": 0.0,
+      "median_duration": 60.0,
+      "event_count": 2,
+      "severity_score": 0.0
+    },
+    "others": {
+      "closure_rate": 0.0847723704866562,
+      "median_duration": 425.9449986166667,
+      "event_count": 637,
+      "severity_score": 0.08119641096807248
+    },
+    "pot_holes": {
+      "closure_rate": 0.024208566108007448,
+      "median_duration": 12983.117416633333,
+      "event_count": 537,
+      "severity_score": 0.3340495221222506
+    },
+    "procession": {
+      "closure_rate": 0.2638888888888889,
+      "median_duration": 36.537950349999996,
+      "event_count": 72,
+      "severity_score": 0.13598296137750268
+    },
+    "protest": {
+      "closure_rate": 0.4,
+      "median_duration": 24.454272316666668,
+      "event_count": 15,
+      "severity_score": 0.20134662367419964
+    },
+    "public_event": {
+      "closure_rate": 0.4642857142857143,
+      "median_duration": 60.0,
+      "event_count": 84,
+      "severity_score": 0.23214285714285715
+    },
+    "road_conditions": {
+      "closure_rate": 0.12352941176470589,
+      "median_duration": 9236.322142458333,
+      "event_count": 170,
+      "severity_score": 0.34580165254269873
+    },
+    "test_demo": {
+      "closure_rate": 0.0,
+      "median_duration": 1.8238433749999996,
+      "event_count": 3,
+      "severity_score": 0.00017731440218992644
+    },
+    "tree_fall": {
+      "closure_rate": 0.39436619718309857,
+      "median_duration": 732.122042925,
+      "event_count": 284,
+      "severity_score": 0.2307528081016123
+    },
+    "vehicle_breakdown": {
+      "closure_rate": 0.04270535349407438,
+      "median_duration": 41.102746491666664,
+      "event_count": 4894,
+      "severity_score": 0.2225857591417872
+    },
+    "vip_movement": {
+      "closure_rate": 0.8,
+      "median_duration": 60.0,
+      "event_count": 20,
+      "severity_score": 0.4
+    },
+    "water_logging": {
+      "closure_rate": 0.0851528384279476,
+      "median_duration": 3584.7006169333335,
+      "event_count": 458,
+      "severity_score": 0.16883423379880258
+    }
+  },
+  "corridor_stats": {
+    "Airport New South Road": {
+      "event_count": 67,
+      "closure_rate": 0.1044776119402985,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.44608316521173763
+    },
+    "Bannerghata Road": {
+      "event_count": 209,
+      "closure_rate": 0.03349282296650718,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4267859824857701
+    },
+    "Bellary Road 1": {
+      "event_count": 610,
+      "closure_rate": 0.054098360655737705,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4607168586761324
+    },
+    "Bellary Road 2": {
+      "event_count": 379,
+      "closure_rate": 0.0316622691292876,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4369442157875254
+    },
+    "CBD 1": {
+      "event_count": 26,
+      "closure_rate": 0.11538461538461539,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4478194451288622
+    },
+    "CBD 2": {
+      "event_count": 104,
+      "closure_rate": 0.0673076923076923,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.433585472823141
+    },
+    "Hennur Main Road": {
+      "event_count": 96,
+      "closure_rate": 0.0625,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4311499039077515
+    },
+    "Hosur Road": {
+      "event_count": 298,
+      "closure_rate": 0.05704697986577181,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4419091186599538
+    },
+    "IRR(Thanisandra road)": {
+      "event_count": 95,
+      "closure_rate": 0.06315789473684211,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4313490003034492
+    },
+    "Magadi Road": {
+      "event_count": 245,
+      "closure_rate": 0.04081632653061224,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4320215978768189
+    },
+    "Mysore Road": {
+      "event_count": 742,
+      "closure_rate": 0.1091644204851752,
+      "high_priority_rate": 0.9973045822102425,
+      "corridor_risk": 0.49012123336516267
+    },
+    "Non-corridor": {
+      "event_count": 3122,
+      "closure_rate": 0.12075592568866111,
+      "high_priority_rate": 0.0,
+      "corridor_risk": 0.24830237027546445
+    },
+    "ORR East 1": {
+      "event_count": 244,
+      "closure_rate": 0.07377049180327869,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4451392024868464
+    },
+    "ORR East 2": {
+      "event_count": 187,
+      "closure_rate": 0.016042780748663103,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.41839661261977273
+    },
+    "ORR North 1": {
+      "event_count": 275,
+      "closure_rate": 0.08,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.44961691223574635
+    },
+    "ORR North 2": {
+      "event_count": 235,
+      "closure_rate": 0.0425531914893617,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.43207572886992796
+    },
+    "ORR West 1": {
+      "event_count": 168,
+      "closure_rate": 0.02976190476190476,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.42266709374332695
+    },
+    "Old Airport Road": {
+      "event_count": 76,
+      "closure_rate": 0.07894736842105263,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.43644762129539094
+    },
+    "Old Madras Road": {
+      "event_count": 263,
+      "closure_rate": 0.045627376425855515,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4350991248176196
+    },
+    "Tumkur Road": {
+      "event_count": 458,
+      "closure_rate": 0.026200873362445413,
+      "high_priority_rate": 0.9912663755458515,
+      "corridor_risk": 0.4363270661232163
+    },
+    "Varthur Road": {
+      "event_count": 77,
+      "closure_rate": 0.11688311688311688,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.45168598217925576
+    },
+    "West of Chord Road": {
+      "event_count": 174,
+      "closure_rate": 0.06321839080459771,
+      "high_priority_rate": 1.0,
+      "corridor_risk": 0.4364340571546386
+    }
+  },
+  "junction_stats": {
+    "17th Mn 1st Crs Aishwarya Stores Jn": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "27th Cross Jayanagar(Ganapathi Temple)": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "28thMainJayanagarJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "29thMainRdBTM LayoutJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "5thMainHSR": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "5thMainRPC Layout-Vijayanagar": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "A S CharStreet-MysoreRdJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "ASC Junction": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "AdugodiJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "AgaraJunction": {
+      "event_count": 6,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.21354166666666666
+    },
+    "AnandRaoJunction": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "AnepalyaJunc": {
+      "event_count": 6,
+      "closure_rate": 0.5,
+      "junction_risk": 0.296875
+    },
+    "AnilKumbleCircle": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "AnjaneyaTempleJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "ArakereGateJunc": {
+      "event_count": 15,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1171875
+    },
+    "Arbindo Circle": {
+      "event_count": 10,
+      "closure_rate": 0.3,
+      "junction_risk": 0.228125
+    },
+    "Arts&CraftsCircle": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "AshirwadamCircle": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Ashoknagar Junction(ShoolayCircle)": {
+      "event_count": 6,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.21354166666666666
+    },
+    "AttiguppeCircleJunction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "AyyappaTempleJunc": {
+      "event_count": 49,
+      "closure_rate": 0.02040816326530612,
+      "junction_risk": 0.3930165816326531
+    },
+    "BDA Junctio-Koramangala": {
+      "event_count": 6,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.21354166666666666
+    },
+    "BEL Circle": {
+      "event_count": 25,
+      "closure_rate": 0.08,
+      "junction_risk": 0.2353125
+    },
+    "BEML GateJunc(SuranjandasRd)": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "BHEL Gate": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "BM ShriJunc(CMH-100FtRd)Junc": {
+      "event_count": 3,
+      "closure_rate": 0.6666666666666666,
+      "junction_risk": 0.3567708333333333
+    },
+    "BMTCJunction-K H Road": {
+      "event_count": 10,
+      "closure_rate": 0.2,
+      "junction_risk": 0.178125
+    },
+    "BTM16thMain-ORR Junc": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "BagalakunteCrossJunction": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "BagalurCrossJunc": {
+      "event_count": 27,
+      "closure_rate": 0.037037037037037035,
+      "junction_risk": 0.22945601851851852
+    },
+    "Bamboobazar(Shivajinagar)": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "BanashankariBusStandJunc": {
+      "event_count": 13,
+      "closure_rate": 0.15384615384615385,
+      "junction_risk": 0.17848557692307693
+    },
+    "BangaloreBodyBuildersJunc": {
+      "event_count": 19,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1484375
+    },
+    "Basappa Circle Junction": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "BasavamantapaJunc-Dr RajkumarRd": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "BasaweshwaraCircle": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Basveshwarnagar 8th main Junction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "Batrayanapura(Amrutahalli)Junction": {
+      "event_count": 14,
+      "closure_rate": 0.07142857142857142,
+      "junction_risk": 0.1450892857142857
+    },
+    "BegumMahalJunc": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "Bellandur Junction, Outer ring road": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "BhadrappaLayout": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "BhashyamCircle": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "BhashyamCircle-SadashivNagar": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "BigBazaar(Whitefield)Junc": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "BigBazaarJunction(OldMadrasRd)": {
+      "event_count": 26,
+      "closure_rate": 0.038461538461538464,
+      "junction_risk": 0.22235576923076922
+    },
+    "BilekahalliJunc": {
+      "event_count": 14,
+      "closure_rate": 0.07142857142857142,
+      "junction_risk": 0.1450892857142857
+    },
+    "BinnyMillJunction": {
+      "event_count": 7,
+      "closure_rate": 0.2857142857142857,
+      "junction_risk": 0.19754464285714285
+    },
+    "BiryandCircle": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "BloodBankCircle": {
+      "event_count": 15,
+      "closure_rate": 0.13333333333333333,
+      "junction_risk": 0.18385416666666665
+    },
+    "Bommanahalli": {
+      "event_count": 26,
+      "closure_rate": 0.0,
+      "junction_risk": 0.203125
+    },
+    "BrigadeMillenium": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "BucheryJunction": {
+      "event_count": 11,
+      "closure_rate": 0.09090909090909091,
+      "junction_risk": 0.13139204545454547
+    },
+    "CID-CarltonHouseJunc": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "CIL CrossJunction-JayamahalRd": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "CMH Rd-AdarshTheaterJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "CMP GateJunc": {
+      "event_count": 20,
+      "closure_rate": 0.15,
+      "junction_risk": 0.23125
+    },
+    "CashPharmacyJunction": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "ChandraLayoutJunc-nearWaterTank": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "ChandrikaJunction": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "ChaudrayaCircle/UdayaTVCircle(CantonmentJunc)": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "Chokasandra (Tumkur road)": {
+      "event_count": 14,
+      "closure_rate": 0.0,
+      "junction_risk": 0.109375
+    },
+    "CholurpalyaJunction(MagadiRd)": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "CoffeeBoardJunc": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "ColesParkJunc": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "CommandoHospitalJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "D'SouzaCircle": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "DMRoadJunc(Basavangudi)": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "DairyCircle": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Delmia-Jayanagar": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "Devanahalli new bus stand": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "DevanahalliCrossJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "DevangaHostelJunction": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Devasandra(k r puram)": {
+      "event_count": 30,
+      "closure_rate": 0.13333333333333333,
+      "junction_risk": 0.30104166666666665
+    },
+    "DevegowdaPetrolBunkJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "Deverabeesanahalli-ORR Junc": {
+      "event_count": 15,
+      "closure_rate": 0.06666666666666667,
+      "junction_risk": 0.15052083333333333
+    },
+    "DhobiGhatJunc": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "DickensonRd-AdigasJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "DoddaballapuraCrossJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "DomlurWaterTank": {
+      "event_count": 12,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.17708333333333331
+    },
+    "Dr RajkumarRd-10thCrossRdJunc": {
+      "event_count": 5,
+      "closure_rate": 0.2,
+      "junction_risk": 0.1390625
+    },
+    "Dr TCM RoyanRd near AmbedkarStatue": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "ESI(k r puram)": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "ElectronicCityGate-2Junc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "EliteJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "FTI Junction(KanteeravaStudio)": {
+      "event_count": 11,
+      "closure_rate": 0.09090909090909091,
+      "junction_risk": 0.13139204545454547
+    },
+    "Fire Force Junction": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "GangammagudiJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "GarebhavipalyaJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Geeta Circle": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "Geethanjali jn": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "GokuldasImagesJunc": {
+      "event_count": 28,
+      "closure_rate": 0.0,
+      "junction_risk": 0.21875
+    },
+    "GopalGowdaJUnc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "GorappanapalyaJunction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "GoruguntepalyaJunc": {
+      "event_count": 20,
+      "closure_rate": 0.05,
+      "junction_risk": 0.18125
+    },
+    "GovindapuraCross": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "GowdanapalyaJunction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "HSR14thMainJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "HainsJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "HalliThindi": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "HebbalFlyoverJunc": {
+      "event_count": 28,
+      "closure_rate": 0.14285714285714285,
+      "junction_risk": 0.2901785714285714
+    },
+    "HennurRd-DavisRdJunction": {
+      "event_count": 5,
+      "closure_rate": 0.6,
+      "junction_risk": 0.3390625
+    },
+    "HennurRoad-ORR Junc": {
+      "event_count": 17,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1328125
+    },
+    "HesaraghattaJunction": {
+      "event_count": 30,
+      "closure_rate": 0.03333333333333333,
+      "junction_risk": 0.25104166666666666
+    },
+    "HoodiJunction": {
+      "event_count": 6,
+      "closure_rate": 0.5,
+      "junction_risk": 0.296875
+    },
+    "HopefarmJunction": {
+      "event_count": 10,
+      "closure_rate": 0.0,
+      "junction_risk": 0.078125
+    },
+    "HoramavuJunction": {
+      "event_count": 12,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.17708333333333331
+    },
+    "HosmatJunction": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "HudsonCircle": {
+      "event_count": 16,
+      "closure_rate": 0.1875,
+      "junction_risk": 0.21875
+    },
+    "HulimaveRd-BanneraghattaRdJunc": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "HunsemarammanahalliJunction": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "ISRO Junction-Airport rd": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "ISRO Junction-NewBEL Rd": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "IbblurJunction'": {
+      "event_count": 13,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1015625
+    },
+    "IndianExpressJunction": {
+      "event_count": 16,
+      "closure_rate": 0.0625,
+      "junction_risk": 0.15625
+    },
+    "Indiranasgar13thMainJunc": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "ItmaduJunction": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "J D MaraJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "JP Nagar 15th cross junction": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "JP Nagar 9th cross-24th main jn": {
+      "event_count": 5,
+      "closure_rate": 0.2,
+      "junction_risk": 0.1390625
+    },
+    "JaiMuniRaoCircle": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "Jaipuria-Adugodi": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "JakkurCrossJunction": {
+      "event_count": 18,
+      "closure_rate": 0.05555555555555555,
+      "junction_risk": 0.1684027777777778
+    },
+    "JalahalliCross(SM Circle)": {
+      "event_count": 32,
+      "closure_rate": 0.0,
+      "junction_risk": 0.25
+    },
+    "JayadevaHospitalJunc": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "Jayanagar 4th main,36th cross": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "JohnsonMarket": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "K G Junction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "K H Road-SiddaiahRdJunc(BMTC-BigBazaar)": {
+      "event_count": 6,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.21354166666666666
+    },
+    "K R Circle": {
+      "event_count": 31,
+      "closure_rate": 0.2903225806451613,
+      "junction_risk": 0.3873487903225806
+    },
+    "K R MarketJunction": {
+      "event_count": 7,
+      "closure_rate": 0.42857142857142855,
+      "junction_risk": 0.2689732142857143
+    },
+    "KCG HospitalJunction": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "KHB Junction": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "KIMCO Junction": {
+      "event_count": 31,
+      "closure_rate": 0.06451612903225806,
+      "junction_risk": 0.274445564516129
+    },
+    "KR Road-14thCross Junc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "KadirenahalliJunction": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "Kadubeesanahalli-ORR Junc": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "KalyanNagar-ORR Junc": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "KamakyaJunction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "Kammanahalli-RingRoadJunction": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "KamrajRdJunction": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "KanakapuraRd-RingRdJunction": {
+      "event_count": 9,
+      "closure_rate": 0.1111111111111111,
+      "junction_risk": 0.12586805555555555
+    },
+    "KarnatakaBhavanJunction": {
+      "event_count": 9,
+      "closure_rate": 0.1111111111111111,
+      "junction_risk": 0.12586805555555555
+    },
+    "KatriguppeJunction": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "KensingtonOvalJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "KhodaysCircle(DV UrsCircle)": {
+      "event_count": 23,
+      "closure_rate": 0.043478260869565216,
+      "junction_risk": 0.2014266304347826
+    },
+    "KodigehalliCross": {
+      "event_count": 11,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0859375
+    },
+    "KogilluCrossJunc": {
+      "event_count": 15,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1171875
+    },
+    "KonanakunteJunction(KanakapurarRd)": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "KoramangalaWaterTankJunc": {
+      "event_count": 29,
+      "closure_rate": 0.0,
+      "junction_risk": 0.2265625
+    },
+    "KrishnaFlourMill": {
+      "event_count": 19,
+      "closure_rate": 0.3157894736842105,
+      "junction_risk": 0.30633223684210525
+    },
+    "Krupanidhi College": {
+      "event_count": 5,
+      "closure_rate": 0.2,
+      "junction_risk": 0.1390625
+    },
+    "Kudlu Gate Junc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "KundanahalliGateJunc": {
+      "event_count": 11,
+      "closure_rate": 0.09090909090909091,
+      "junction_risk": 0.13139204545454547
+    },
+    "KuvempuCircle": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "KuvempuCircleJunc,HAL MainGate": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "LRDE Junction": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "LalbaghMainGateJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "LalbaghWestGate": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "LeprosyhospitalJunc": {
+      "event_count": 21,
+      "closure_rate": 0.14285714285714285,
+      "junction_risk": 0.23549107142857142
+    },
+    "LinkRoadMalleswaramJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "LowerAgaram(IndiaGarage)Junc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "MC Circle": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "MICO Bande": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "MS RamaiahJunc(TollGate)": {
+      "event_count": 11,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0859375
+    },
+    "MSRamaiahHospitalJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "MahalaxmiLayoutEntranceJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "MaharajaJunction": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "Malleswaram18thCrossRd-SampigeRdJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "ManipalCentreJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "MaratahalliBridgeJunc": {
+      "event_count": 16,
+      "closure_rate": 0.125,
+      "junction_risk": 0.1875
+    },
+    "MarenahalliRd-18thMainRdJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "MargosaRd-18thCrossJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "Marigowda-TavarkereRdJunc": {
+      "event_count": 13,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1015625
+    },
+    "MayohallJunction": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "MeenakshiMallJunc": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "MekhriCircle": {
+      "event_count": 64,
+      "closure_rate": 0.015625,
+      "junction_risk": 0.5078125
+    },
+    "MillCornerRd-SampigeRdJunc": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "Minerva Circle": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "MinskSquare(CTO Junction)": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "MintoJunction": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "ModiBridgeJunction": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "ModiHospital": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "MotherTeressaCircle": {
+      "event_count": 11,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0859375
+    },
+    "MysoreRd--MadhuPetrolBunkJunction": {
+      "event_count": 4,
+      "closure_rate": 0.75,
+      "junction_risk": 0.40625
+    },
+    "MysoreRd-RingRdJunc(Nayandanahallii)": {
+      "event_count": 19,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1484375
+    },
+    "N R SquareJunc": {
+      "event_count": 10,
+      "closure_rate": 0.1,
+      "junction_risk": 0.128125
+    },
+    "NCERT Junction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "NGV RearGateJunc": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "NIMHANS Junction": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "NTTF JunctionPeenya": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "NagaTheaterJunc-Ulsoor": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "NaganathapuraJunction": {
+      "event_count": 12,
+      "closure_rate": 0.08333333333333333,
+      "junction_risk": 0.13541666666666666
+    },
+    "Nagarbhavi": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "Nagavara-ORR Junction": {
+      "event_count": 32,
+      "closure_rate": 0.0625,
+      "junction_risk": 0.28125
+    },
+    "NandiCross(RaniCross)": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "Narayanapura cross, Hegde nagar": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "NationalCollege": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "NavarangBarJunc-Dr RajkumarRd": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "NavarangTheatreJunction": {
+      "event_count": 4,
+      "closure_rate": 0.25,
+      "junction_risk": 0.15625
+    },
+    "OldMadrasRd-80FeetRdJunc": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "OldMadrasRd-BMTC DepotJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "OldMadrasRd-DoubleRdJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "OldMadrasRd-Indranagar100ftRdJunc": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "OldMadrasRd-NGEF Junc": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "OldMadrasRd-SuddaguntepalyaRdJunc": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "OldPoliceStation-Ashoknagar": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "OperaHouseJunc": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "PES-DevegowdaCircle": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "Peenya14thCrossJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "Peenya2ndStageBusStand": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "PeenyaPoliceStation": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "PlatformRdJunction": {
+      "event_count": 6,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.21354166666666666
+    },
+    "PoliceCornerJunc": {
+      "event_count": 26,
+      "closure_rate": 0.15384615384615385,
+      "junction_risk": 0.2800480769230769
+    },
+    "PoliceTimmaiahCircle(GPO)": {
+      "event_count": 14,
+      "closure_rate": 0.0,
+      "junction_risk": 0.109375
+    },
+    "PotteryCircle": {
+      "event_count": 5,
+      "closure_rate": 0.2,
+      "junction_risk": 0.1390625
+    },
+    "PrasannaJunction": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "PriyadarshiniHotel,Jayamahal,RT Nagar": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "PurnimaTheaterJunc": {
+      "event_count": 8,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0625
+    },
+    "PuttammaChoultryNagarbhavi": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "QueensStatueCircle": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "RRR(Okalipuram)Junction": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "Rajajinagagr1stBlockJunction": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "Rajajinagar19thMainJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "RajajinagarEntranceJunction": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "RajarajeshwariKalyanaMantapaJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "RajeshwariJunc": {
+      "event_count": 22,
+      "closure_rate": 0.18181818181818182,
+      "junction_risk": 0.26278409090909094
+    },
+    "RamaiahCircle-UlsoorPoliceStation": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "RamamurthyNagarJunction": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "Richmond circle jn": {
+      "event_count": 11,
+      "closure_rate": 0.36363636363636365,
+      "junction_risk": 0.2677556818181818
+    },
+    "Ring road-Near Kengunte Junction": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "RingRoad-UllalJunction": {
+      "event_count": 7,
+      "closure_rate": 0.14285714285714285,
+      "junction_risk": 0.12611607142857142
+    },
+    "RoyanCircle-Chamrajpete": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "SRS Peenya Junc": {
+      "event_count": 20,
+      "closure_rate": 0.05,
+      "junction_risk": 0.18125
+    },
+    "SadahalliGateJunc(AirportRd)": {
+      "event_count": 7,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0546875
+    },
+    "SadashivnagarJunc": {
+      "event_count": 13,
+      "closure_rate": 0.38461538461538464,
+      "junction_risk": 0.2938701923076923
+    },
+    "SafinaPlazaJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "SagarHospitalJunc": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "SagarTheatreJunc": {
+      "event_count": 6,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.13020833333333331
+    },
+    "SandeepUnnikrishnan-Yelhanka": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "SantheCircle": {
+      "event_count": 25,
+      "closure_rate": 0.2,
+      "junction_risk": 0.2953125
+    },
+    "SarjapurRd-St JohnsRdJunc": {
+      "event_count": 10,
+      "closure_rate": 0.0,
+      "junction_risk": 0.078125
+    },
+    "SatteliteBusStandJunc": {
+      "event_count": 43,
+      "closure_rate": 0.023255813953488372,
+      "junction_risk": 0.3475654069767442
+    },
+    "ShankarMuttCircle": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "ShantalaJunction": {
+      "event_count": 15,
+      "closure_rate": 0.0,
+      "junction_risk": 0.1171875
+    },
+    "ShivajiTalkiesJunc": {
+      "event_count": 7,
+      "closure_rate": 0.14285714285714285,
+      "junction_risk": 0.12611607142857142
+    },
+    "Shivajinagar(BRV)Junction": {
+      "event_count": 16,
+      "closure_rate": 0.0,
+      "junction_risk": 0.125
+    },
+    "ShivanahalliJunctionWOC": {
+      "event_count": 3,
+      "closure_rate": 0.3333333333333333,
+      "junction_risk": 0.19010416666666666
+    },
+    "ShivandaCircle": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "Shivashankara circle": {
+      "event_count": 5,
+      "closure_rate": 0.2,
+      "junction_risk": 0.1390625
+    },
+    "SiddalingaiahCircle": {
+      "event_count": 11,
+      "closure_rate": 0.18181818181818182,
+      "junction_risk": 0.1768465909090909
+    },
+    "SiddapuraJunction": {
+      "event_count": 5,
+      "closure_rate": 0.4,
+      "junction_risk": 0.2390625
+    },
+    "SilkBoardJunc": {
+      "event_count": 33,
+      "closure_rate": 0.12121212121212122,
+      "junction_risk": 0.3184185606060606
+    },
+    "SindhiColonyJunction": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "SirsiCircle": {
+      "event_count": 9,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0703125
+    },
+    "SonyworldJunction": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "South end circle": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "Srigandakaval": {
+      "event_count": 14,
+      "closure_rate": 0.0,
+      "junction_risk": 0.109375
+    },
+    "Srinivagilu(Ejipura)Junc": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "StateBankofMysoreJunc": {
+      "event_count": 12,
+      "closure_rate": 0.0,
+      "junction_risk": 0.09375
+    },
+    "SubbannaJunction": {
+      "event_count": 9,
+      "closure_rate": 0.2222222222222222,
+      "junction_risk": 0.1814236111111111
+    },
+    "SubedarChatramRd near SheshadripuramPS": {
+      "event_count": 8,
+      "closure_rate": 0.5,
+      "junction_risk": 0.3125
+    },
+    "Sumanhalli": {
+      "event_count": 16,
+      "closure_rate": 0.0625,
+      "junction_risk": 0.15625
+    },
+    "SwagathMainRd-EastEndRdJunc": {
+      "event_count": 2,
+      "closure_rate": 0.5,
+      "junction_risk": 0.265625
+    },
+    "TC Palya-OM RoadJunc": {
+      "event_count": 4,
+      "closure_rate": 0.25,
+      "junction_risk": 0.15625
+    },
+    "TVS CrossJunction": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "TamarikannanJunc": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "TataInstituteCircle": {
+      "event_count": 12,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.17708333333333331
+    },
+    "ThomasCafe-New": {
+      "event_count": 1,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0078125
+    },
+    "TownhallJunction": {
+      "event_count": 30,
+      "closure_rate": 0.06666666666666667,
+      "junction_risk": 0.2677083333333333
+    },
+    "Trilight Circle,Race course Road": {
+      "event_count": 2,
+      "closure_rate": 1.0,
+      "junction_risk": 0.515625
+    },
+    "TrinityCircle": {
+      "event_count": 11,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0859375
+    },
+    "TumkurRdMarappanapalyaJunc": {
+      "event_count": 14,
+      "closure_rate": 0.0,
+      "junction_risk": 0.109375
+    },
+    "TyagiHengalvarayaJunc(DickensonRd)": {
+      "event_count": 5,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0390625
+    },
+    "UCO Bank(Forum)": {
+      "event_count": 2,
+      "closure_rate": 0.0,
+      "junction_risk": 0.015625
+    },
+    "UlsoorGateJunc": {
+      "event_count": 12,
+      "closure_rate": 0.16666666666666666,
+      "junction_risk": 0.17708333333333331
+    },
+    "UniversityJunc(Janabharti)": {
+      "event_count": 11,
+      "closure_rate": 0.18181818181818182,
+      "junction_risk": 0.1768465909090909
+    },
+    "UpparpetJunction": {
+      "event_count": 2,
+      "closure_rate": 1.0,
+      "junction_risk": 0.515625
+    },
+    "UrvashiJunction": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "UttarahalliJunction": {
+      "event_count": 15,
+      "closure_rate": 0.06666666666666667,
+      "junction_risk": 0.15052083333333333
+    },
+    "VeerannapalyaJunction(BEL,HO)": {
+      "event_count": 30,
+      "closure_rate": 0.23333333333333334,
+      "junction_risk": 0.3510416666666667
+    },
+    "VeerasandraGateJunction": {
+      "event_count": 11,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0859375
+    },
+    "VetenaryHospitalJunc-Shivajinagar": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "VijayanagarBusStandJunction": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "VishweswaraiahJunctio(Uttamsagar)": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "WebbsCircle": {
+      "event_count": 3,
+      "closure_rate": 0.0,
+      "junction_risk": 0.0234375
+    },
+    "WilsonGarden10thCrossJunc": {
+      "event_count": 6,
+      "closure_rate": 0.0,
+      "junction_risk": 0.046875
+    },
+    "WilsonGarden12thCrossJunc": {
+      "event_count": 8,
+      "closure_rate": 0.125,
+      "junction_risk": 0.125
+    },
+    "WiproJunc-Koramangala": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "YediyurMeternityHospital": {
+      "event_count": 1,
+      "closure_rate": 1.0,
+      "junction_risk": 0.5078125
+    },
+    "YelhankaBypass": {
+      "event_count": 19,
+      "closure_rate": 0.05263157894736842,
+      "junction_risk": 0.1747532894736842
+    },
+    "YelhankaCircle": {
+      "event_count": 34,
+      "closure_rate": 0.0,
+      "junction_risk": 0.265625
+    },
+    "Yemalur cross junc": {
+      "event_count": 4,
+      "closure_rate": 0.0,
+      "junction_risk": 0.03125
+    },
+    "YeshwanthpuraCircle": {
+      "event_count": 38,
+      "closure_rate": 0.02631578947368421,
+      "junction_risk": 0.3100328947368421
+    },
+    "toll gate mysore road": {
+      "event_count": 33,
+      "closure_rate": 0.06060606060606061,
+      "junction_risk": 0.2881155303030303
+    }
+  },
+  "zone_stats": {
+    "Central Zone 1": {
+      "event_count": 269,
+      "closure_rate": 0.1412639405204461,
+      "zone_density": 0.4317817014446228
+    },
+    "Central Zone 2": {
+      "event_count": 623,
+      "closure_rate": 0.08667736757624397,
+      "zone_density": 1.0
+    },
+    "East Zone 1": {
+      "event_count": 253,
+      "closure_rate": 0.05928853754940711,
+      "zone_density": 0.406099518459069
+    },
+    "East Zone 2": {
+      "event_count": 190,
+      "closure_rate": 0.14210526315789473,
+      "zone_density": 0.30497592295345105
+    },
+    "North Zone 1": {
+      "event_count": 317,
+      "closure_rate": 0.10094637223974763,
+      "zone_density": 0.5088282504012841
+    },
+    "North Zone 2": {
+      "event_count": 413,
+      "closure_rate": 0.053268765133171914,
+      "zone_density": 0.6629213483146067
+    },
+    "South Zone 1": {
+      "event_count": 233,
+      "closure_rate": 0.04721030042918455,
+      "zone_density": 0.3739967897271268
+    },
+    "South Zone 2": {
+      "event_count": 354,
+      "closure_rate": 0.05084745762711865,
+      "zone_density": 0.5682182985553772
+    },
+    "West Zone 1": {
+      "event_count": 433,
+      "closure_rate": 0.06697459584295612,
+      "zone_density": 0.695024077046549
+    },
+    "West Zone 2": {
+      "event_count": 358,
+      "closure_rate": 0.0446927374301676,
+      "zone_density": 0.5746388443017657
+    }
+  }
+}
