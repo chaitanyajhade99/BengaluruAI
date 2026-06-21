@@ -40,26 +40,33 @@ gridlock_project/
 
 ## Instructions to run
 
-### Option 1 — Open the dashboard directly (no install needed)
+### Option 1 — Run locally with full FastAPI server (Recommended)
 
-Open `dashboard/index.html` in any modern browser. The dashboard is fully self-contained.
+To run the complete system with the ML inference backend, interactive Leaflet hotspots map, and post-event feedback database logging enabled:
 
-- **Overview tab**: hourly patterns, event cause breakdown, closure rates, corridor risk bars
-- **Predict Event tab**: configure any event and get instant AI forecast + recommendations
-- **Hotspot Map tab**: interactive Leaflet.js map of Bengaluru's top congestion junctions
-- **Post-Event Learning tab**: correction factor table and accuracy trend charts
+```bash
+# 1. Install Python dependencies
+pip install -r requirements.txt
+
+# 2. Run the FastAPI server from the project root
+python -m uvicorn main:app --app-dir source_code/gridlock_project/src --port 8000 --reload
+
+# 3. Open the dashboard in your browser
+# Go to http://127.0.0.1:8000
+```
+
+*Note: If you just want to preview the static dashboard UI layout without AI forecasting or feedback logging, you can open `source_code/gridlock_project/dashboard/index.html` directly in any web browser.*
 
 ### Option 2 — Retrain the ML models
 
-```bash
-# 1. Install dependencies
-pip install lightgbm xgboost scikit-learn pandas numpy
+If you wish to retrain the underlying LightGBM classifier and XGBoost regressor models on the Astram event dataset:
 
-# 2. Train (takes ~60 seconds)
-cd gridlock_project
+```bash
+# Run the pipeline training script
+cd source_code/gridlock_project
 python src/pipeline.py
 
-# This generates models/ files and prints:
+# This outputs updated model artifacts in the models/ directory:
 # [Classifier] F1=0.43  AUC=0.776
 # [Regressor]  RMSE(log)=1.845  R²=0.529  MedianAE=49 min
 ```
@@ -68,19 +75,22 @@ python src/pipeline.py
 
 ```python
 import pickle, json
-from src.pipeline import load_and_clean, build_features, predict_event, PostEventLearner
+import sys
+# Make sure project files are importable
+sys.path.append('source_code/gridlock_project')
+from src.pipeline import predict_event, PostEventLearner
 
 # Load models
-with open('models/classifier.pkl', 'rb') as f:
+with open('source_code/gridlock_project/models/classifier.pkl', 'rb') as f:
     clf_bundle = pickle.load(f)
-with open('models/regressor.pkl', 'rb') as f:
+with open('source_code/gridlock_project/models/regressor.pkl', 'rb') as f:
     reg = pickle.load(f)
-with open('models/features.json') as f:
+with open('source_code/gridlock_project/models/features.json') as f:
     features = json.load(f)
 
 # Load lookup tables into module
 import src.pipeline as p
-with open('models/lookup_tables.json') as f:
+with open('source_code/gridlock_project/models/lookup_tables.json') as f:
     lut = json.load(f)
 p._CAUSE_STATS = lut['cause_stats']
 p._CORRIDOR_STATS = lut['corridor_stats']
@@ -104,6 +114,49 @@ print(result)
 # {'alert_tier': 'HIGH', 'closure_probability_pct': 62.1, 
 #  'predicted_duration_hrs': 2.4, 'officers_recommended': 6, ...}
 ```
+
+---
+
+## 🚀 Deploy in 5 Minutes
+
+You can host the FastAPI backend server and dashboard online for free in less than 5 minutes.
+
+### Method A: Render.com (Easiest Web Service Hosting)
+1. **Push your code** to a GitHub repository.
+2. Sign up or log in at [Render.com](https://render.com/).
+3. Click **New +** -> **Web Service**.
+4. Link your connected GitHub repository.
+5. In the configuration settings, set:
+   - **Name**: `bengaluru-ai`
+   - **Region**: Select the closest region to you.
+   - **Branch**: `main`
+   - **Runtime**: `Python`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn main:app --app-dir source_code/gridlock_project/src --host 0.0.0.0 --port $PORT`
+6. Click **Deploy Web Service**. Once the build finishes, your app will be live at the provided `.onrender.com` subdomain!
+
+### Method B: Railway.app (Automatic with Persistent Database)
+1. Log in at [Railway.app](https://railway.app/).
+2. Click **New Project** -> **Deploy from GitHub repo**.
+3. Select your repository.
+4. Go to the project settings, and under the **Deploy** panel, set the start command:
+   `uvicorn main:app --app-dir source_code/gridlock_project/src --host 0.0.0.0 --port $PORT`
+5. *(Optional for persistence)* By default, Railway restarts containers with a fresh SQLite DB. If you want logged feedback logs to persist across restarts, go to the service settings -> **Volumes** -> **Add Volume** and mount it to `/code/source_code/gridlock_project` so `bengaluru_ai.db` persists.
+
+### Method C: Hugging Face Spaces (Free CPU Docker Space)
+1. Go to [Hugging Face Spaces](https://huggingface.co/spaces) and click **Create new Space**.
+2. Choose **Docker** as the SDK and select the `Blank` template.
+3. Add a file named `Dockerfile` at the root of the project with:
+   ```dockerfile
+   FROM python:3.9-slim
+   WORKDIR /code
+   COPY ./requirements.txt /code/requirements.txt
+   RUN pip install --no-cache-dir -r /code/requirements.txt
+   COPY . /code
+   CMD ["uvicorn", "main:app", "--app-dir", "source_code/gridlock_project/src", "--host", "0.0.0.0", "--port", "7860"]
+   ```
+4. Commit and push your files. Hugging Face will build the container and deploy it automatically.
+
 
 ---
 
